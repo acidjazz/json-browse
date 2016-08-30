@@ -1,0 +1,22 @@
+{
+  "name": "json-browse",
+  "version": "0..2",
+  "description": "jQuery plugin to interactive with JSON",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acidjazz/json-browse.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "json",
+    "json-viewer",
+    "json-browse",
+    "json2html"
+  ],
+  "author": "Kevin Olson <acidjazz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acidjazz/json-browse/issues"
+  },
+  "homepage": "https://github.com/acidjazz/json-browse"
+}
