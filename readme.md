@@ -1,4 +1,15 @@
-# json-browse
+json-browse
+===========
+
+
+[![npm version](https://badge.fury.io/js/json-browse.svg)](https://badge.fury.io/js/json-browse)
+[![Dependency Status](https://gemnasium.com/acidjazz/json-browse.svg)](https://gemnasium.com/acidjazz/json-browse)
+![Licence](https://img.shields.io/npm/l/json-browse.svg?style=flat-square&label=licence)
+
+[![NPM](https://nodei.co/npm/json-browse.png)](https://npmjs.org/package/json-browse)
+
+
+
 
 ![](example3.jpg)
 
