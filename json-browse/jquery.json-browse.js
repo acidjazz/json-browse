@@ -103,7 +103,7 @@
    * @param json: a javascript object
    * @param options: an optional options hash
    */
-  $.fn.jsonViewer = function(json, options) {
+  $.fn.jsonBrowse = function(json, options) {
     options = options || {};
 
     // jQuery chaining

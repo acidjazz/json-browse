@@ -36,7 +36,7 @@ $(function() {
       collapsed: $('#collapsed').is(':checked'),
       withQuotes: $('#with-quotes').is(':checked')
     };
-    $('#json-renderer').jsonViewer(input, options);
+    $('#json-renderer').jsonBrowse(input, options);
   });
 
   // Display JSON sample on load
@@ -70,7 +70,7 @@ $(function() {
       <label><input type="checkbox" id="collapsed" />Collapse nodes</label>
       <label><input type="checkbox" id="with-quotes" />Keys with quotes</label>
     </p>
-    <button id="btn-json-browser" title="run jsonViewer()">Transform to HTML</button>
+    <button id="btn-json-browser" title="run jsonBrowse()">Transform to HTML</button>
     <pre id="json-renderer" class="json-body"></pre>
   </body>
 </html>
