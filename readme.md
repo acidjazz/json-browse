@@ -1,6 +1,6 @@
-# jQuery json-viewer
+# json-browse
 
-*json-viewer* is a jQuery plugin for easily displaying JSON objects by transforming them into HTML.
+*json-browse* is a jQuery plugin for easily displaying JSON objects by transforming them into HTML.
 
 Features:
 - Syntax highlighting
@@ -12,7 +12,7 @@ Check out the [demo page](http://rawgit.com/acidjazz/json-browse/master/demo.htm
 
 ## Usage
 
-Import `jquery.json-viewer.js` and `jquery.json-viewer.css` in your application.
+Import `jquery.json-browse.js` and `jquery.json-browse.css` in your application.
 
 Then just call the `jsonViewer()` method and pass your JSON data in argument:
 ```html
