@@ -38,9 +38,3 @@ Example:
 ```js
 $('#json-renderer').jsonViewer(data, {collapsed: true, withQuotes: true});
 ```
-
-## About
-
-- Author: [Alexandre Bodelot](https://github.com/abodelot)
-- License: [MIT License](http://opensource.org/licenses/MIT)
-
