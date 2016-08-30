@@ -3,9 +3,6 @@ json-browse
 
 
 [![npm version](https://badge.fury.io/js/json-browse.svg)](https://badge.fury.io/js/json-browse)
-[![Total Downloads](https://poser.pugx.org/acidjazz/json-browse/downloads)](https://packagist.org/packages/acidjazz/json-browse)
-[![Latest Stable Version](https://poser.pugx.org/acidjazz/json-browse/v/stable)](https://packagist.org/packages/acidjazz/json-browse)
-[![Latest Unstable Version](https://poser.pugx.org/acidjazz/json-browse/v/unstable)](https://packagist.org/packages/acidjazz/json-browse)
 [![Dependency Status](https://gemnasium.com/acidjazz/json-browse.svg)](https://gemnasium.com/acidjazz/json-browse)
 ![Licence](https://img.shields.io/npm/l/json-browse.svg?style=flat-square&label=licence)
 
