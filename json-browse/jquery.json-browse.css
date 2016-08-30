@@ -29,10 +29,11 @@ a.json-toggle:focus {
   outline: none;
 }
 a.json-toggle:before {
+  content: "\25B6"; /* left arrow */
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
   color: #d9d9d9;
-  transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
   position: absolute;
   display: inline-block;
   width: 1em;
@@ -41,6 +42,9 @@ a.json-toggle:before {
 }
 a.json-toggle.collapsed:before {
   content: "\25B6"; /* left arrow */
+  transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
   font-size: 10px;
 }
 
