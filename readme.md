@@ -32,8 +32,8 @@ The `jsonBrowse` method accepts an optional `options` hash as a second argument:
 
 | Option     |   Type  | Default | Description                                              |
 |------------|:-------:|--------:|----------------------------------------------------------|
-| *collapsed*  | boolean |   false | All nodes are collapsed.                                 |
-| *withQuotes* | boolean |   false | All JSON keys are surrounded with double quotation marks |
+| collapsed  | boolean |   false | All nodes are collapsed.                                 |
+| withQuotes | boolean |   false | All JSON keys are surrounded with double quotation marks |
 
 Example:
 
