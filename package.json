@@ -1,6 +1,6 @@
 {
   "name": "json-browse",
-  "version": "0.2",
+  "version": "v0.2.0",
   "description": "jQuery plugin to easily browse and highlight your JSON",
   "repository": {
     "type": "git",
