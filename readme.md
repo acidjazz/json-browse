@@ -1,5 +1,7 @@
 # json-browse
 
+![](example.jpg)
+
 *json-browse* is a jQuery plugin to easily browse and highlight your JSON.
 
 * Syntax highlighting
