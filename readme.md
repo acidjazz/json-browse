@@ -1,20 +1,20 @@
 # json-browse
 
-*json-browse* is a jQuery plugin for easily displaying JSON objects by transforming them into HTML.
+*json-browse* is a jQuery plugin to easily browse and highlight your JSON.
 
-Features:
-- Syntax highlighting
-- Collapse and expand child nodes on click
-- Clickable links
-- Easily readable and minimal DOM structure
+* Syntax highlighting
+* Collapse and expand child nodes on click
+* Clickable links
+* Easily readable and minimal DOM structure
 
-Check out the [demo page](http://rawgit.com/acidjazz/json-browse/master/demo.html)!
+[demo page](http://rawgit.com/acidjazz/json-browse/master/demo.html)!
 
 ## Usage
 
 Import `jquery.json-browse.js` and `jquery.json-browse.css` in your application.
 
-Then just call the `jsonBrowse()` method and pass your JSON data in argument:
+Then just call the `jsonBrowse()` method passing in an object:
+
 ```html
 <pre id="json-renderer" class="json-body"></pre>
 ```
@@ -30,8 +30,10 @@ $('#json-renderer').jsonBrowse(data);
 
 The `jsonBrowse` method accepts an optional `options` hash as a second argument:
 
-- `collapsed` (boolean, default: `false`): all nodes are collapsed at html generation.
-- `withQuotes` (boolean, default: `false`): all JSON keys are surrounded with double quotation marks (`{"foobar": 1}` instead of `{foobar: 1}`).
+| Option     |   Type  | Default | Description                                              |
+|------------|:-------:|--------:|----------------------------------------------------------|
+| *collapsed*  | boolean |   false | All nodes are collapsed.                                 |
+| *withQuotes* | boolean |   false | All JSON keys are surrounded with double quotation marks |
 
 Example:
 
