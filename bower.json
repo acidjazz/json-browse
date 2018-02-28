@@ -1,0 +1,27 @@
+{
+  "name": "json-browse",
+  "description": "jQuery plugin for browsing JSON data",
+  "main": "index.html",
+  "authors": [
+    "Kevin Olson <acidjazz@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "html",
+    "javascript",
+    "jquery",
+    "json"
+  ],
+  "homepage": "https://github.com/acidjazz/json-browse",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*"
+  }
+}
